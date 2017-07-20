@@ -1,0 +1,13 @@
+body{
+	background: url(back.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+	p {
+    	font-family: "Courier new", Times, serif;
+}
+
+	body {
+    	font-family: "Times new roman", Times, serif;
+}
+<div class="w3-bar w3-black">
+  /*background-color: #727b89; 
