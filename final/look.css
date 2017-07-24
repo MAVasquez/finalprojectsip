@@ -17,8 +17,8 @@ p {
 h1 {
     font-size: 9.5em
 }
-h1 {
-    	font-family: "corvisa", Times, serif;
+h3 {
+    	font-family: "Corvisa", /*Times, serif*/;
 }
 
 a {
