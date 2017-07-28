@@ -1,0 +1,27 @@
+body{
+	background-color:#FFFFFF;
+}
+
+h1 {
+    font-size: 2.0 em; 40px/16=2.5em
+}
+
+h2 {
+    font-size: 1.875em; /* 30px/16=1.875em */
+ }
+
+p {
+    font-size: 0.875em; /* 14px/16=0.875em */
+}
+h1 {
+    font-size: 9.5em
+}
+h3 {
+    	font-family: "Corvisa", /*Times, serif*/;
+}
+
+a {
+    	font-family: "Times new roman", Times, serif;
+}
+<div class="w3-bar w3-black">
+  /*background-color: #727b89; 
