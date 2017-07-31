@@ -140,8 +140,8 @@ body, html {
           slides[slideIndex-1].style.display = "block";  
           dots[slideIndex-1].className += " active";
           setTimeout(showSlides, 2000); // Change image every 2 seconds
-          }
-          </script>
+          
+}          </script>
 
             </style>
             <body>
@@ -150,13 +150,51 @@ body, html {
 <div class="w3-top">
   <div class="w3-col w3-padding w3-black">
     <div class="w3-col s3">
-      <a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-red">SALIDA</a>
+      <style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+
+
+
+<div class="tooltip"><a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-red">SALIDA</a>
+  <span class="tooltiptext">Usa este boton para salir de pagina  </span>
+</div>
+
     </div>
     <div class="w3-col s3">
       <a href="casa.html" class="w3-button w3-block w3-black">INICIO</a>
     </div>
     <div class="w3-col s3">
       <a href="que.html" class="w3-button w3-block w3-black">QUE SON LAS RELACIONES TOXICAS?</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="home2.html" class="w3-button w3-block w3-black">ENGLISH</a>
     </div>
     <div class="w3-col s3">
     <div class="dropdown">
@@ -166,7 +204,6 @@ body, html {
         <a href="re.html">RECURSOS</a>
         <a href="MJD.html">SOBRE NOSOTRAS</a>
         <a href="primera.html">PÁGINA DE INFORMACIÓN</a>
-        <a href="in.html">ENGLISH</a>
       </div>
     </div>
 
