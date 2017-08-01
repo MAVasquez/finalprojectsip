@@ -150,7 +150,42 @@ body, html {
 <div class="w3-top">
   <div class="w3-col w3-padding w3-black">
     <div class="w3-col s3">
-      <a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-red">EXIT</a>
+      <style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+
+
+
+<div class="tooltip"><a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-red">SALIDA</a>
+  <span class="tooltiptext">Usa este boton para salir de pagina </span>
+</div>
+
     </div>
     <div class="w3-col s3">
       <a href="casa.html" class="w3-button w3-block w3-black">INICIO</a>
@@ -158,15 +193,17 @@ body, html {
     <div class="w3-col s3">
       <a href="que.html" class="w3-button w3-block w3-black">QUE SON LAS RELACIONES TOXICAS?</a>
     </div>
+   <div class="w3-col s3">
+      <a href="home2.html" class="w3-button w3-block w3-black">ENGLISH</a>
+    </div>
     <div class="w3-col s3">
     <div class="dropdown">
-      <button class="w3-button w3-block w3-black">MORE</button>
+      <button class="w3-button w3-block w3-black">MAS</button>
       <div class="dropdown-content">
         <a href="ins.html">INSPIRACION</a>
         <a href="re.html">RECURSOS</a>
         <a href="MJD.html">SOBRE NOSOTRAS</a>
         <a href="primera.html">PÁGINA DE INFORMACIÓN</a>
-        <a href="r.html">ENGLISH</a>
       </div>
     </div>
 

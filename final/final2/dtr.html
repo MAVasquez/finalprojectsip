@@ -149,14 +149,49 @@ body, html {
 <!-- Links (sit on top) -->
 <div class="w3-top">
   <div class="w3-col w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-red">EXIT</a>
-    </div>
+        <style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+
+
+
+<div class="tooltip"><a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-red">EXIT</a>
+  <span class="tooltiptext">Use this button to leave page </span>
+</div>
     <div class="w3-col s3">
       <a href="home2.html" class="w3-button w3-block w3-black">HOME</a>
     </div>
     <div class="w3-col s3">
       <a href="dtr.html" class="w3-button w3-block w3-black">WHAT ARE TOXIC RELATIONS?</a>
+    </div>
+        <div class="w3-col s3">
+      <a href="casa.html" class="w3-button w3-block w3-black">SPANISH</a>
     </div>
     <div class="w3-col s3">
     <div class="dropdown">
@@ -166,7 +201,6 @@ body, html {
         <a href="r.html">RESOURCES</a>
         <a href="DJM.html">ABOUT US</a>
         <a href="wed.html.html">INFORMATION PAGE</a>
-        <a href="que.html">SPANISH</a>
       </div>
     </div>
 
