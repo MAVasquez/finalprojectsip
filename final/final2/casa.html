@@ -1,6 +1,43 @@
 <!DOCTYPE html>
 <html>
-<title>Inicio</title>
+<body>
+<br>
+<br>
+<title>INICIO</title>
+<style>
+.alert {
+    padding: 20px;
+    background-color: lightblue;
+    color: black;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: red;
+}
+</style>
+</head>
+<body>
+<br>
+<div class="alert">
+<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+<strong>Precaución!!</strong> Por favor tenga en mente que su actividad en esta pagina puede ser monitoreada.Si usted esta en peligro, porfavor llame al 911 o a la línea de Violencia Doméstica: 1-800-799-7233(SAFE)
+</div>
+
+
+
+
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,146 +52,144 @@ body, html {
     background-size: cover;
     background-image: url(  
       <head>
-            <meta name="viewport" content="width=device-width, intial-scale=1">
-            <style>
-            * {box-sizing:border-box}
-            body{font-family:Verdana,sans-serif;}
-            .mySlides{display:none}
+      <meta name="viewport" content="width=device-width, intial-scale=1">
+      <style>
+      * {box-sizing:border-box}
+      body{font-family:Verdana,sans-serif;}
+      .mySlides{display:none}
 
-            /* Slideshow container*/
-            .slideshow-container{
-              max-width: 100px;
-              position: relative;
-              margin: auto;
-            }
-
-      /*      /*Caption text*/
-            .text{
-              color: #f2f2f2;
-              font-size:15px;
-              padding: 8px 12px;
-              position: absolute;
-              bottom: 8px;
-              width: 100%;
-              text-align:center;
-            }
-      */
-        /*Number text(1/4 etc)*/
-        .numbertext{
-          color:#f2f2f2;
-          font-size: 12px;
-          padding: 8px 12px;
-          position: absolute;
-          top:0;
-        }
-
-      /*The dots/bullets/indicators*/
-      .dot{
-        height: 13px;
-        width: 13px;
-        margin: 0 2px;
-        background-color:#bbb
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 5s ease;
+      /* Slideshow container*/
+      .slideshow-container{
+        max-width: 100px;
+        position: relative;
+        margin: auto;
       }
 
-      .active{
-        background-color: #717171;
+/*      /*Caption text*/
+      .text{
+        color: #f2f2f2;
+        font-size:15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align:center;
       }
+*/
+  /*Number text(1/4 etc)*/
+  .numbertext{
+    color:#f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top:0;
+  }
 
-      /* Fading animation*/
-      .fade{
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 4s;
-        animation-name: fade;
-        animation-duration: 4s;
-      }
+/*The dots/bullets/indicators*/
+.dot{
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color:#bbb
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 5s ease;
+}
 
-      @-webkit-keyframes fade{
-        from {opacity: .4;}
-        to {opacity: 1;}
-      }
+.active{
+  background-color: #717171;
+}
 
-      @keyframes fade{
-        from {opacity: .4}
-        to{opacity: 1}
-      }
+/* Fading animation*/
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4s;
+  animation-name: fade;
+  animation-duration: 4s;
+}
 
-      /* On smaller screens, decrease text size*/
-      @media only screen and (max-width: 300px) {
-        .text{font-size: 11px;}
-      }
+@-webkit-keyframes fade{
+  from {opacity: .4;}
+  to {opacity: 1;}
+}
+
+@keyframes fade{
+  from {opacity: .4}
+  to{opacity: 1}
+}
+
+/* On smaller screens, decrease text size*/
+@media only screen and (max-width: 300px) {
+  .text{font-size: 11px;}
+}
+
+</style>
+</head>
+<body>
+
+<!-- <h2>Information about events?</h2> -->
+<!-- <p>Change every 3 seconds</p>
+ -->
+<center>
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <!-- <div class="numbertext">1 / 14</div>
+   -->  <img src="found.jpg" style="width:50%">
+  <!--   <div class="text">martha</div>
+   --></div>
+
+
+  <div class="mySlides fade">
+  <!--   <div class="numbertext">5/ 14</div> -->
+    <img src="nl.jpg" style="width:50%">
+  <!--   <div class="text">dana</div> -->
+  </div>
+
+
+  
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    
+  </div>
+
+<br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
 
       </style>
-      </head>
       <body>
-
-      <!-- <h2>Information about events?</h2> -->
-      <!-- <p>Change every 3 seconds</p>
-       -->
-      <center>
-        <div class="slideshow-container">
-
-        <div class="mySlides fade">
-          <!-- <div class="numbertext">1 / 14</div>
-         -->  <img src="found.jpg" style="width:50%">
-        <!--   <div class="text">martha</div>
-         --></div>
-
-
-        <div class="mySlides fade">
-        <!--   <div class="numbertext">5/ 14</div> -->
-          <img src="nl.jpg" style="width:50%">
-        <!--   <div class="text">dana</div> -->
-        </div>
-
-
-        
-        <br>
-
-        <div style="text-align:center">
-          <span class="dot"></span> 
-          <span class="dot"></span> 
-          
-        </div>
-
-      <br>
-
-      <script>
-      var slideIndex = 0;
-      showSlides();
-
-      function showSlides() {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-             slides[i].style.display = "none";  
-          }
-          slideIndex++;
-          if (slideIndex> slides.length) {slideIndex = 1}    
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-          setTimeout(showSlides, 2000); // Change image every 2 seconds
-          }
-          </script>
-
-            </style>
-            </body>
-
-<!-- Links (sit on top) -->
 <div class="w3-top">
   <div class="w3-col w3-padding w3-black">
-    <div class="w3-col s3">
-      <style>
+    <style>
 .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+    width: 320px;
 }
 
 .tooltip .tooltiptext {
@@ -182,31 +217,32 @@ body, html {
 
 
 
-<div class="tooltip"><a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-red">SALIDA</a>
-  <span class="tooltiptext">Usa este boton para salir de pagina </span>
+<div class="tooltip"><a href="https://www.youtube.com/" class="w3-button w3-block w3-black w3-hover-light-blue">SALIDA</a>
+  <span class="tooltiptext">Usa este boton para salir de la pagina</span>
 </div>
 
+    <div class="w3-col s3">
+      <a href="casa.html" class="w3-button w3-block w3-black w3-hover-light-green">INICIO</a>
     </div>
     <div class="w3-col s3">
-      <a href="casa.html" class="w3-button w3-block w3-black">INICIO</a>
+      <a href="que.html" class="w3-button w3-block w3-black w3-hover-light-green">QUE SON LAS RELACIONES TÓXICAS?</a>
     </div>
-    <div class="w3-col s3">
-      <a href="que.html" class="w3-button w3-block w3-black">QUE SON LAS RELACIONES TOXICAS?</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="home2.html" class="w3-button w3-block w3-black">ENGLISH</a>
-    </div>
+        <!-- <div class="w3-col s3">
+      <a href="casa.html" class="w3-button w3-block w3-black">SPANISH</a>
+    </div> -->
     <div class="w3-col s3">
     <div class="dropdown">
-      <button class="w3-button w3-block w3-black">MAS</button>
+      <button class="w3-button w3-block w3-black w3-hover-light-green">MAS</button>
       <div class="dropdown-content">
         <a href="ins.html">INSPIRACION</a>
         <a href="re.html">RECURSOS</a>
         <a href="MJD.html">SOBRE NOSOTRAS</a>
-        <a href="primera.html">PÁGINA DE INFORMACIÓN</a>
+        <a href="primera.html">PÁGINA DE INTRODUCCION</a>
+
       </div>
     </div>
 
+    
     <!-- <div class="dropdown">
       <div class="w3-col s3">
       <button class="contactus">MORE</button>
@@ -245,20 +281,20 @@ body, html {
 
       .dropdown-content a {
           color: #f9f9f9;
-          hover-color: black;
+          hover-color: blue;
           padding: 12px 16px;
           text-decoration: none;
           display: block;
       }
 
-      .dropdown-content a:hover {background-color: #DDDEDE}
+      .dropdown-content a:hover {background-color: lightblue;}
 
       .dropdown:hover .dropdown-content {
-          display: block;
+          display: block; color:black;
       }
 
       .dropdown:hover .dropbtn {
-          background-color: #DDDEDE;
+          background-color: black;
       }
       </style>
       </head>
@@ -293,27 +329,29 @@ body, html {
 <!-- About Container -->
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">INICIO</span></h5>
-        
-        <iframe src="https://calendar.google.com/calendar/embed?src=j27upro3tk8ns7rd7kg0lq8890%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    <!-- End page content -->
-    </div>
-    <br>
-    <br>
-    <br>
-
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Inicio</span></h5>
+    
+  
 <!-- End page content -->
 </div>
+<br>
+<br>
+<br>
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
-  <h4><strong>CONTÁCTENOS:</strong></h4>
+   <h4><strong>CONTÁCTENOS:</strong></h4>
   <span><p>Na.Haumana.Co@Gmail.com</p></span>
   <span><p>(323)507-4997</p></span>
+  <p>...............</p>
+<a href="home2.html"><strong>English</strong></a>
+<br>
 </footer>
 
-<!-- Add Google Maps -->
 
+<!-- Add Google Calendar-->
+<!-- <iframe src="https://calendar.google.com/calendar/embed?title=Stay%20up%20to%20date!!&amp;height=600&amp;wkst=1&amp;bgcolor=%23339999&amp;src=j27upro3tk8ns7rd7kg0lq8890%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+ -->
 
 </body>
 </html>
