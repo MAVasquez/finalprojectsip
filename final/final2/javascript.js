@@ -4,7 +4,7 @@ var poems = [' You were supposed to feel loved, safe and happy \ instead you fee
 'You must \ want to spend \ the rest of your life\ with yourself \ first-Rupi Kaur',
 'And here you are living despite it all  \ -Anoymous',
 'I am not the same girl who had a war \ waging in her belly when you met her \ don\'t come here with your \ screwdriver fingers \ and try to make a lover out of me \ what makes you think \ I\'d fall to my knees for you? \ does this face look like the \ type of face that\'ll let you \ slap her around when she \ doesn\'t answer yes \ this is the face of a woman who\'ll \ rip your heart out with her fist \ if you lay a finger on her \ without her permission \ Darling.\ be assured \ I am not the same woman \ you fell in love with \ I wear dreams bigger than your existence \ I dont need your fixing',
-'I can do all this through him who gives me strength',
+'I can do all this through him who gives me strength Philipians 4:13',
 'It is because she is a dreamer and visualizes her dreams that she can plan great things \ that other women would seem as impossible; her intense efficency, her power, her skills , her patience,\ her fine earnestness, her mastery over others, \ which develop her dreams into realities.\ She dreams and sees visions but her visions are never just visions \ they are dreams that become facts in her life',
 'In the darkest days\  the lord puts the best people into your life\ -John green',
 'There are infinite opportunities if you choose to seek them',
